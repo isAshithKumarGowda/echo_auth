@@ -11,7 +11,7 @@ type Connection struct {
 }
 
 func NewDatabase() *Connection {
-	DB, err := sql.Open("postgres", "postgresql://echo_auth_bnav_user:OsJ0y4uq2cyNtUBaHQDnIAreBeJgK1Ps@dpg-d036vljuibrs7383q5u0-a.singapore-postgres.render.com/echo_auth_bnav")
+	DB, err := sql.Open("postgres", "postgresql://snipetbox_user:Sbqx0etnAvHSIvCBDhCBfda6G5iXwdVT@dpg-d0i1kd24d50c73b0l9b0-a.singapore-postgres.render.com/snipetbox")
 	if err != nil {
 		panic(err)
 	}
